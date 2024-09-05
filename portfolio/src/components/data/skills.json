@@ -1,0 +1,38 @@
+[
+  {
+    "id":"1",
+    "titles": "HTML",
+    "imagesrc": "/images/html_logo.png",
+    "detail": "I possess strong HTML skills, with the ability to write semantic, responsive, and accessible HTML5 code. I'm well-versed in structuring content using tags, attributes, and elements, and have a solid understanding of HTML syntax, formatting, and best practices. I'm skilled in creating forms, tables, and multimedia content, and have knowledge of ARIA attributes and web accessibility guidelines, ensuring my code is inclusive and user-friendly."
+  },
+  {
+    "id":"2",
+    "titles": "CSS",
+    "imagesrc": "/images/css_logo.png",
+    "detail": "I'm proficient in CSS, with expertise in crafting stylish, responsive, and maintainable stylesheets. I'm well-versed in selecting elements, properties, and values, and have a solid grasp of layout techniques, including grid, flexbox, and positioning. I'm skilled in creating visually appealing designs, managing layout and typography, and implementing effects and animations. I stay up-to-date with the latest CSS features and best practices, ensuring my stylesheets are efficient, readable, and compatible with modern browsers"
+  },
+  {
+    "id":"3",
+    "titles": "JAVASCRIPT",
+    "imagesrc": "/images/js_logo.png",
+    "detail": "I'm skilled in JavaScript, with a strong understanding of its fundamentals, including data types, functions, and object-oriented programming. I'm proficient in using JavaScript to create interactive client-side experiences, manipulate DOM elements, and handle events. I'm experienced with popular libraries and frameworks like jQuery, React, and Angular, and have knowledge of modern JavaScript features like async/await, promises, and destructuring. I'm comfortable writing clean, efficient, and well-documented JavaScript code that adheres to industry standards and best practices."
+  },
+  {
+    "id":"4",
+    "titles": "REACT",
+    "imagesrc": "/images/react_logo.jpg",
+    "detail": "I'm proficient in React, with expertise in building reusable UI components, managing state and props, and optimizing performance. I'm well-versed in React Hooks, Context API, and popular libraries like Redux and MobX. I'm skilled in creating responsive, interactive, and data-driven interfaces, and have experience with React Router, Webpack, and other essential tools in the React ecosystem. I stay up-to-date with the latest React features and best practices, ensuring my code is efficient, scalable, and maintainable."
+  },
+  {
+    "id":"5",
+    "titles": "Node.js (with Express.js)",
+    "imagesrc": "/images/nodejs_logo.png",
+    "detail": "I'm skilled in Node.js (Express.js), with expertise in building fast, scalable, and secure server-side applications. I'm proficient in designing RESTful APIs, handling requests and responses, and managing middleware pipelines. I'm experienced with template engines like EJS and Pug, and have knowledge of database integration, authentication, and authorization. I'm comfortable with Express's modular architecture and have experience with popular middleware libraries like Body-parser, Cookie-parser, and Morgan. I stay up-to-date with the latest Express features and best practices, ensuring my applications are efficient, reliable, and maintainable"
+  },
+  {
+    "id":"6",
+    "titles": "DATABASE MANAGEMENT",
+    "imagesrc": "/images/database_logo1.webp",
+    "detail": "I'm proficient in MongoDB, with expertise in designing, implementing, and managing NoSQL databases. I'm skilled in creating scalable and performant schemas, indexing, and querying data using MongoDB's query language. I'm experienced with data modeling, aggregation pipelines, and data replication. I'm comfortable with MongoDB's document-based data model and have knowledge of MongoDB tools like Compass, Atlas, and MongoDB Shell. I stay up-to-date with the latest MongoDB features and best practices, ensuring my databases are efficient, secure, and optimized for high performance."
+  }
+]

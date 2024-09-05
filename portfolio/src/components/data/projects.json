@@ -1,0 +1,18 @@
+[
+    {
+      "title": "WEATHER PREDICTION",
+      "imageSrc": "/images/weather.jpeg",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["API Connection", "JSS", "HTML","CSS"],
+      "demo": "https://ayushwebweather.netlify.app/",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "DIGILOPMENT.IN",
+      "imageSrc": "images/digilopment.webp",
+      "description": "It is a service-based projects where we provide various services like web development, app development and tech support etc. ",
+      "skills":[],
+      "demo": "https://digilopment.in/",
+      "source": "https://www.github.com"
+    }
+  ]

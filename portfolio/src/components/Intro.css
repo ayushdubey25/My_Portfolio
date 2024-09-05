@@ -1,0 +1,149 @@
+/* Define the fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.name {
+  position: absolute;
+  color: white;
+  z-index: 1;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Courier New", Courier, monospace;
+  opacity: 0;
+  animation: fadeIn 1.16s ease-in-out forwards;
+}
+
+.ayush {
+  filter: brightness(30%);
+  position: relative;
+  display: block;
+  margin: 0%;
+  padding: 0%;
+  height: 850px;
+  object-fit: cover;
+  opacity: 0;
+  animation: fadeIn 1.16s ease-in-out forwards;
+}
+
+.intro {
+  img {
+    position: absolute;
+    z-index: 2;
+    height: 250px;
+    width: 250px;
+    top: 10%;
+    left: 42%;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    animation: fadeIn 1.16s ease-in-out forwards;
+  }
+  img:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    top: 7%;
+  }
+  p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    position: absolute;
+    color: white;
+    z-index: 1;
+    text-align: justify;
+    top: 60%;
+    left: 50%;
+    font-weight: lighter;
+    opacity: 60%;
+    transform: translate(-50%, -50%);
+  }
+}
+.circle {
+  height: 260px;
+  width: 260px;
+  top: 9.5%;
+  left: 41.57%;
+  position: absolute;
+  z-index: 2;
+  border-radius: 50%;
+  border: 5px solid #dddddd00;
+  border-top-color: blueviolet;
+  border-bottom-color: blue;
+  animation: rotate 2.5s infinite, fadeIn 1.16s ease-in-out forwards;
+  box-shadow: 2px 2px 10px rgb(204, 0, 255);
+}
+@keyframes rotate {
+  100% {
+    rotate: 360deg;
+  }
+}
+
+@media (max-width: 600px) {
+  .ayush {
+    height: 720px;
+  }
+  .intro {
+    img {
+      height: 194px;
+      width: 194px;
+      left: 22%;
+    }
+    .name {
+      position: absolute;
+      color: white;
+      z-index: 1;
+      top: 43%;
+      left: 58%;
+      transform: translate(-50%, -50%);
+      font-family: "Courier New", Courier, monospace;
+      display: inline;
+      overflow-x: auto;
+    }
+    p {
+      position: absolute;
+      color: white;
+      z-index: 1;
+      text-align: justify;
+      top: 65%;
+      left: 50%;
+      font-weight: lighter;
+      opacity: 60%;
+      transform: translate(-50%, -50%);
+      font-size: 12px;
+    }
+  }
+
+  .card1 {
+    display: none;
+  }
+  .card2 {
+    display: none;
+  }
+  .card3 {
+    display: none;
+  }
+  .circle {
+    height: 200px;
+    width: 200px;
+    top: 9.5%;
+    left: 20.57%;
+    position: absolute;
+    z-index: 2;
+    border-radius: 50%;
+    border: 5px solid #dddddd00;
+    border-top-color: blueviolet;
+    border-bottom-color: blue;
+    animation: rotate 2.5s infinite;
+    box-shadow: 2px 2px 10px rgb(204, 0, 255);
+  }
+  @keyframes rotate {
+    100% {
+      rotate: 360deg;
+    }
+  }
+}

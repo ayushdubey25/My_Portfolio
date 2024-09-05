@@ -1,0 +1,75 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.about {
+  position: absolute;
+  color: white;
+  z-index: 1;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%);
+  font-family: "Courier New", Courier, monospace;
+  opacity: 0;
+  animation: fadeIn 1.66s ease-in-out forwards;
+}
+
+h2 {
+  text-align: center;
+}
+.icon {
+  img {
+    height: 100px;
+    width: 110px;
+    justify-items: center;
+    margin-left: 300px;
+  }
+}
+.card {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0;
+  background: none;
+  color: white;
+}
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .about {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    top: 20%;
+    left: 50%;
+    width: 100%;
+
+    transform: translate(-50%);
+    font-family: "Courier New", Courier, monospace;
+
+    p {
+      font-size: 12px;
+    }
+  }
+  .icon {
+    img {
+      height: 90px;
+      width: 90px;
+
+      margin-left: 135px;
+    }
+  }
+}

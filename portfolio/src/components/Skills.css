@@ -1,0 +1,122 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.cardd {
+  background-color: rgba(0, 0, 0, 0.182);
+  height: 450px;
+  width: 800px;
+  align-items: center;
+  margin-top: 10px;
+  color: black;
+  border-radius: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: all 0.3s ease;
+  z-index: 2;
+  transform: translate(0%);
+  display: block;
+  img {
+    height: 180px;
+    width: 180px;
+    transform: translate(170%);
+    display: block;
+    filter: drop-shadow(0px 0px 40px rgba(228, 10, 195, 0.792));
+  }
+
+  h1 {
+    color: rgb(255, 118, 27);
+    text-align: center;
+    font-size: 28px;
+  }
+
+  p {
+    color: white;
+    text-align: center;
+  }
+}
+
+.cardanimation {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0;
+  background: none;
+  color: white;
+}
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.title {
+  position: absolute;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 1;
+  animation: fadeIn 1.36s ease-in-out forwards;
+}
+.background_image {
+  height: 3000px;
+  position: relative;
+}
+@media (max-width: 600px) {
+  .title {
+    position: absolute;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    top: 10%;
+    left: 45%;
+    transform: translate(-50%);
+    z-index: 1;
+  }
+  .background_image {
+    height: 3200px;
+    position: relative;
+    width: 100 5;
+  }
+  .cardd {
+    background-color: rgba(0, 0, 0, 0.182);
+    height: 450px;
+    width: 350px;
+    align-items: center;
+    margin-top: 35px;
+    color: black;
+    border-radius: 8px;
+    font-family: monospace;
+    transition: all 0.3s ease;
+    z-index: 2;
+    transform: translate(5%);
+    display: block;
+    img {
+      height: 130px;
+      width: 130px;
+      transform: translate(85%);
+      display: block;
+      filter: drop-shadow(0px 0px 40px rgba(228, 10, 195, 0.792));
+    }
+
+    h1 {
+      color: rgb(255, 118, 27);
+      text-align: center;
+      font-size: 28px;
+    }
+
+    p {
+      color: white;
+      text-align: center;
+      font-size: 12px;
+    }
+  }
+}
